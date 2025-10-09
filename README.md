@@ -1,4 +1,5 @@
 🗒️ Django Notes Docker
+
 A simple Django web app to create and view notes — fully containerized using Docker.
 
 🚀 Features
