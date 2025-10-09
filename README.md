@@ -1,15 +1,14 @@
-🗒️ Django Notes Docker
+# 🗒️ Django Notes Docker
 
 A simple Django web app to create and view notes — fully containerized using Docker.
 
-🚀 Features
+## 🚀 Features
+- Add and list notes
+- Lightweight SQLite database
+- Runs in a Docker container
 
-Add and list notes
-
-Lightweight SQLite database
-
-Runs easily in a Docker container
-
-🐳 Run with Docker
+## 🐳 Run with Docker
+```bash
 docker build -t django-notes-app .
 docker run -p 8000:8000 django-notes-app
+
